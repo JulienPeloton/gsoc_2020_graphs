@@ -28,10 +28,10 @@ Exercice: build the graph based on the `data/alerts.csv` data.
 
 Query the graph to
 
-- compute the vertex degree (in, out, and overall).
-- count how many vertices are connected to ztf4
-- find the longest chain in the graph.
-- extract the sub-graph containing only vertices connected to the vertex `sn`.
+- compute the vertex degree (in, out, and overall),
+- find the longest chain in the graph,
+- count how many vertices are connected to ztf4 (in/out),
+- extract the sub-graph containing only vertices pointing to the vertex `unknown`.
 
 ## Exercise 3: visualisation of the graph
 
