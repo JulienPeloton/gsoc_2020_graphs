@@ -1,21 +1,143 @@
 QUERY 1:
+For node ztf13               
+In degree      -> 1                   
+Out degree     -> 1                   
+Overall degree -> 2                   
+For node ztf6                
+In degree      -> 2                   
+Out degree     -> 4                   
+Overall degree -> 6                   
+For node ztf9                
+In degree      -> 0                   
+Out degree     -> 2                   
+Overall degree -> 2                   
+For node ztf4                
+In degree      -> 1                   
+Out degree     -> 1                   
+Overall degree -> 2                   
+For node ztf3                
+In degree      -> 1                   
+Out degree     -> 3                   
+Overall degree -> 4                   
+For node ztf14               
+In degree      -> 0                   
+Out degree     -> 1                   
+Overall degree -> 1                   
+For node unknown             
+In degree      -> 4                   
+Out degree     -> 0                   
+Overall degree -> 4                   
+For node ztf23               
+In degree      -> 1                   
+Out degree     -> 2                   
+Overall degree -> 3                   
+For node ztf7                
+In degree      -> 1                   
+Out degree     -> 3                   
+Overall degree -> 4                   
+For node ztf11               
+In degree      -> 0                   
+Out degree     -> 2                   
+Overall degree -> 2                   
+For node ztf12               
+In degree      -> 1                   
+Out degree     -> 3                   
+Overall degree -> 4                   
+For node ztf2                
+In degree      -> 1                   
+Out degree     -> 3                   
+Overall degree -> 4                   
+For node ztf21               
+In degree      -> 0                   
+Out degree     -> 1                   
+Overall degree -> 1                   
+For node ztf5                
+In degree      -> 0                   
+Out degree     -> 2                   
+Overall degree -> 2                   
+For node rrlyr               
+In degree      -> 5                   
+Out degree     -> 0                   
+Overall degree -> 5                   
+For node ztf22               
+In degree      -> 0                   
+Out degree     -> 2                   
+Overall degree -> 2                   
+For node sn                  
+In degree      -> 14                  
+Out degree     -> 0                   
+Overall degree -> 14                  
+For node ztf8                
+In degree      -> 1                   
+Out degree     -> 1                   
+Overall degree -> 2                   
+For node ztf1                
+In degree      -> 0                   
+Out degree     -> 2                   
+Overall degree -> 2                   
 
 
 ****************************************
 
 QUERY 2:
+For node ztf13               
+Longest Chain for this Node -> 5
+For node ztf6                
+Longest Chain for this Node -> 3
+For node ztf9                
+Longest Chain for this Node -> 0
+For node ztf4                
+Longest Chain for this Node -> 7
+For node ztf3                
+Longest Chain for this Node -> 5
+For node ztf14               
+Longest Chain for this Node -> 0
+For node unknown             
+Longest Chain for this Node -> 5
+For node ztf23               
+Longest Chain for this Node -> 3
+For node ztf7                
+Longest Chain for this Node -> 5
+For node ztf11               
+Longest Chain for this Node -> 0
+For node ztf12               
+Longest Chain for this Node -> 3
+For node ztf2                
+Longest Chain for this Node -> 3
+For node ztf21               
+Longest Chain for this Node -> 0
+For node ztf5                
+Longest Chain for this Node -> 0
+For node rrlyr               
+Longest Chain for this Node -> 7
+For node ztf22               
+Longest Chain for this Node -> 0
+For node sn                  
+Longest Chain for this Node -> 9
+For node ztf8                
+Longest Chain for this Node -> 7
+For node ztf1                
+Longest Chain for this Node -> 0
 ********************
-Longest Chain   -> 0
+Longest Chain   -> 9
 Longest Path:
+sn <- is <- ztf8 <- knows <- ztf7 <- knows <- ztf6 <- knows <- ztf9 <- start
+sn <- is <- ztf8 <- knows <- ztf7 <- knows <- ztf6 <- knows <- ztf5 <- start
+sn <- is <- ztf4 <- knows <- ztf3 <- knows <- ztf2 <- knows <- ztf1 <- start
 
 
 ****************************************
 
 QUERY 3:
-Vertices connected to ztf4  -> 0
-The vertices are 
+Vertices connected to ztf4  -> 2
+The vertices are sn ztf3 
 
 ****************************************
 
 QUERY 4:
 Nodes and edges in subgraph:
+ztf23 is unknown
+ztf23 is unknown
+ztf22 knows ztf23
+ztf22 is unknown
+ztf21 is unknown
