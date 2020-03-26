@@ -1,0 +1,21 @@
+QUERY 1:
+
+
+****************************************
+
+QUERY 2:
+********************
+Longest Chain   -> 0
+Longest Path:
+
+
+****************************************
+
+QUERY 3:
+Vertices connected to ztf4  -> 0
+The vertices are 
+
+****************************************
+
+QUERY 4:
+Nodes and edges in subgraph:
